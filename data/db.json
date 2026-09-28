@@ -1,0 +1,1446 @@
+{
+  "items": [
+    {
+      "id": "60e472510cfbd1000dc39594",
+      "name": "Naninha macaquinho",
+      "image": "/gifts/imgs/1731532965580.jpg",
+      "price": 54,
+      "sellingPrice": 61,
+      "category": "Hora do soninho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e4731d0cfbd1000dc39596",
+      "name": "Coruja musical com alça para berço",
+      "image": "/gifts/imgs/1625584411809.jpg",
+      "price": 88,
+      "sellingPrice": 99.41,
+      "category": "Hora do soninho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e1ad390cf923000d7d4ae5",
+      "name": "Jogo de berço bordado 200 fios",
+      "image": "/gifts/imgs/1625402680586.jpg",
+      "price": 155,
+      "sellingPrice": 175.1,
+      "category": "Hora do soninho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60f8643ed5b8e200097a4e46",
+      "name": "Lenço umedecido",
+      "image": "/gifts/imgs/1642018968457.jpg",
+      "price": 19,
+      "sellingPrice": 21.46,
+      "category": "Higiene",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "60ef359b21649f0009c6f59d",
+      "name": "Kit de fraldas",
+      "image": "/gifts/imgs/1626289563299.jpg",
+      "price": 62,
+      "sellingPrice": 70.04,
+      "category": "Higiene",
+      "limit": 2,
+      "bought": 0
+    },
+    {
+      "id": "60e46b982f78ee0010004492",
+      "name": "Chocalhos",
+      "image": "/gifts/imgs/1625582486906.jpg",
+      "price": 49,
+      "sellingPrice": 55.35,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60ecad043600810011863f53",
+      "name": "Banheira com suporte e trocador",
+      "image": "/gifts/imgs/1626123523511.jpg",
+      "price": 315,
+      "sellingPrice": 355.85,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60ecaff13600810011863f59",
+      "name": "Kit com 6 mamadeiras",
+      "image": "/gifts/imgs/1626124272754.jpg",
+      "price": 235,
+      "sellingPrice": 265.48,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60ef33ef21649f0009c6f32a",
+      "name": "Saco para dormir",
+      "image": "/gifts/imgs/1626289135255.jpg",
+      "price": 96,
+      "sellingPrice": 108.45,
+      "category": "Para os passeios",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60ec8f8e707ab8000d41b5eb",
+      "name": "Toalha fralda",
+      "image": "/gifts/imgs/1631825224787.jpg",
+      "price": 70,
+      "sellingPrice": 79.08,
+      "category": "Hora do banho",
+      "limit": 2,
+      "bought": 0
+    },
+    {
+      "id": "60e1afe30cf923000d7d4aec",
+      "name": "Trocador 200 fios",
+      "image": "/gifts/imgs/1625403363352.jpg",
+      "price": 175,
+      "sellingPrice": 197.7,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60f864afd5b8e200097a546d",
+      "name": "Kit 4 lenços umedecidos",
+      "image": "/gifts/imgs/1631825389630.jpg",
+      "price": 48,
+      "sellingPrice": 54.23,
+      "category": "Higiene",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "613b7b0fa39fc7000653e6a2",
+      "name": "Mordedor chocalho pezinho",
+      "image": "/gifts/imgs/1631288078582.jpg",
+      "price": 41,
+      "sellingPrice": 46.32,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "61df37a621b91c000ddcf251",
+      "name": "Pomada para assaduras Bepantol 60g",
+      "image": "/gifts/imgs/1642018724863.jpg",
+      "price": 32,
+      "sellingPrice": 36.15,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "61f0741fce0284000c3c271f",
+      "name": "Ninho estrelas",
+      "image": "/gifts/imgs/1643148316704.jpg",
+      "price": 144,
+      "sellingPrice": 162.68,
+      "category": "Hora do soninho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "623d292e19b02e000d956a7f",
+      "name": "Kit 2 mantinhas fleece",
+      "image": "/gifts/imgs/1648175404966.jpg",
+      "price": 94,
+      "sellingPrice": 106.19,
+      "category": "Hora do soninho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "655cf7206a815100087c6901",
+      "name": "Roupão de banho ursinho",
+      "image": "/gifts/imgs/1700591390411.jpg",
+      "price": 114,
+      "sellingPrice": 128.78,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "662e2fd59c15e13e976c70d8",
+      "name": "Kit banho",
+      "image": "/gifts/imgs/1714302931485.jpg",
+      "price": 65,
+      "sellingPrice": 73.43,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6733bd23bc27b2c537f663b6",
+      "name": "Kit 4 cueiros",
+      "image": "/gifts/imgs/1731444001323.jpg",
+      "price": 95,
+      "sellingPrice": 107.32,
+      "category": "Hora do soninho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6733bff267a3f71131568745",
+      "name": "Bolsa térmica carneirinho",
+      "image": "/gifts/imgs/1731444721043.jpg",
+      "price": 80,
+      "sellingPrice": 90.38,
+      "category": "Hora do soninho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6733c037bc27b2c537f6880d",
+      "name": "Kit 4 babadores",
+      "image": "/gifts/imgs/1731444789489.jpg",
+      "price": 82,
+      "sellingPrice": 92.63,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6733c273bc27b2c537f69b00",
+      "name": "Cobertor fleece nuvens",
+      "image": "/gifts/imgs/1731445360982.jpg",
+      "price": 130,
+      "sellingPrice": 146.86,
+      "category": "Hora do soninho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6733c5ee90db64d22026c8e4",
+      "name": "Esterilizador de mamadeiras",
+      "image": "/gifts/imgs/1731446251963.jpg",
+      "price": 160,
+      "sellingPrice": 180.75,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6733cadc90db64d2202707ba",
+      "name": "Banheira dobrável portátil",
+      "image": "/gifts/imgs/1731447515077.jpg",
+      "price": 210,
+      "sellingPrice": 237.23,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6733cb780cc61e8815b96c21",
+      "name": "Almofada para banho",
+      "image": "/gifts/imgs/1731447669909.jpg",
+      "price": 90,
+      "sellingPrice": 101.67,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6733cbc20cc61e8815b97122",
+      "name": "Kit de cuidados",
+      "image": "/gifts/imgs/1731447744788.jpg",
+      "price": 50,
+      "sellingPrice": 56.48,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6733ccc551b7987f9d483271",
+      "name": "Ofurô baby",
+      "image": "/gifts/imgs/1731448004276.jpg",
+      "price": 200,
+      "sellingPrice": 225.94,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6733cd7e90db64d2202712f8",
+      "name": "Cadeira de descanso",
+      "image": "/gifts/imgs/1731448188779.jpg",
+      "price": 210,
+      "sellingPrice": 237.23,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6747710ad8a975c76f79114b",
+      "name": "Kit 2 mamadeiras anti-cólica",
+      "image": "/gifts/imgs/1732735241679.jpg",
+      "price": 102,
+      "sellingPrice": 115.23,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "674772c4db7d5b81eb1070a0",
+      "name": "Kit com 3 paninhos de boca",
+      "image": "/gifts/imgs/1732735683553.jpg",
+      "price": 45,
+      "sellingPrice": 50.84,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "67dafaefed3188f7cfcaf4fb",
+      "name": "Pacote Pampers XXG 24 unidades",
+      "image": "/gifts/imgs/1742405006248.jpg",
+      "price": 71,
+      "sellingPrice": 80.21,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "67db26108bb107fec199fa4b",
+      "name": "Pacote Pampers RN 36 unidades",
+      "image": "/gifts/imgs/1742415320651.jpg",
+      "price": 51,
+      "sellingPrice": 57.61,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "67db2686c4ca9a15b2d12e2b",
+      "name": "Pacote Pampers P 40 unidades",
+      "image": "/gifts/imgs/1742415438222.jpg",
+      "price": 65,
+      "sellingPrice": 73.43,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "67db26ed8bb107fec19a061e",
+      "name": "Pacote Pampers M 34 unidades",
+      "image": "/gifts/imgs/1742415541634.jpg",
+      "price": 70,
+      "sellingPrice": 79.08,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "67db27a68bb107fec19a1b3f",
+      "name": "Pacote Pampers G 68 unidades",
+      "image": "/gifts/imgs/1742415726214.jpg",
+      "price": 121,
+      "sellingPrice": 136.69,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "67db287dc4ca9a15b2d14679",
+      "name": "Pacote Huggies P 48 unidades",
+      "image": "/gifts/imgs/1742415941312.jpg",
+      "price": 51,
+      "sellingPrice": 57.61,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "67db28f3c4ca9a15b2d14fd8",
+      "name": "Pacote Huggies M 40 unidades",
+      "image": "/gifts/imgs/1742416059547.jpg",
+      "price": 53,
+      "sellingPrice": 59.87,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "67db29218bb107fec19a368e",
+      "name": "Pacote Huggies G 32 unidades",
+      "image": "/gifts/imgs/1742416105815.jpg",
+      "price": 55,
+      "sellingPrice": 62.13,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "67db295b8bb107fec19a3f5d",
+      "name": "Pacote Huggies XG 48 unidades",
+      "image": "/gifts/imgs/1742416164104.jpg",
+      "price": 84,
+      "sellingPrice": 94.89,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "67db29898bb107fec19a4ea8",
+      "name": "Pacote Huggies XXG 48 unidades",
+      "image": "/gifts/imgs/1742416210021.jpg",
+      "price": 90,
+      "sellingPrice": 101.67,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "67db29cac4ca9a15b2d1647f",
+      "name": "Pacote Huggies RN 34 unidades",
+      "image": "/gifts/imgs/1742416275679.jpg",
+      "price": 36,
+      "sellingPrice": 40.67,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "67db29ed8bb107fec19a563b",
+      "name": "Pacote Huggies P 36 unidades",
+      "image": "/gifts/imgs/1742416310645.jpg",
+      "price": 52,
+      "sellingPrice": 58.74,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "68311e763e919885bee49644",
+      "name": "Kit Huggies: 1 p. Fraldas RN + Lenço + Pomada + Sb",
+      "image": "/gifts/imgs/1748049525642.jpg",
+      "price": 111,
+      "sellingPrice": 125.4,
+      "category": "Kits",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "68311ec3c6870ba9bef15ea1",
+      "name": "Kit Huggies: 2 p. Fraldas P + Lenço + Sabonete",
+      "image": "/gifts/imgs/1748049602642.jpg",
+      "price": 140,
+      "sellingPrice": 158.16,
+      "category": "Kits",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "68311eeac6870ba9bef166f3",
+      "name": "Kit Huggies: 2 p. Fraldas M + Lenço + Pomada",
+      "image": "/gifts/imgs/1748049641589.jpg",
+      "price": 160,
+      "sellingPrice": 180.75,
+      "category": "Kits",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "683124583e919885bee537a8",
+      "name": "Kit Pampers: p. Fraldas RN + Lenço RN + Sabonete",
+      "image": "/gifts/imgs/1748051032068.jpg",
+      "price": 94,
+      "sellingPrice": 106.19,
+      "category": "Kits",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "683124ab3e919885bee53bcc",
+      "name": "Kit Pampers: 2 p. Fraldas P + 2 lenços umedecidos",
+      "image": "/gifts/imgs/1748051113580.jpg",
+      "price": 167,
+      "sellingPrice": 188.66,
+      "category": "Kits",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "683125033e919885bee54231",
+      "name": "Kit Pampers: 2 p. Fraldas M + Lenço + Sabonete L.",
+      "image": "/gifts/imgs/1748051202809.jpg",
+      "price": 182,
+      "sellingPrice": 205.6,
+      "category": "Kits",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "6831253c9f5160554c21b9dc",
+      "name": "Kit Pampers: 1 p. Fraldas G + 2 Lenços umedecidos",
+      "image": "/gifts/imgs/1748051259483.jpg",
+      "price": 158,
+      "sellingPrice": 178.49,
+      "category": "Kits",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "68c069d716b8255d9849ccdb",
+      "name": "Livrinho de banho",
+      "image": "/gifts/imgs/1757440470224.jpg",
+      "price": 24,
+      "sellingPrice": 27.11,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c06a3cb04ec429fa065741",
+      "name": "Toalha fralda passarinhos",
+      "image": "/gifts/imgs/1757458908974.jpg",
+      "price": 42,
+      "sellingPrice": 47.45,
+      "category": "Hora do banho",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "68c06ee916b8255d984a8ed5",
+      "name": "Toalha com capuz ursinho - bege",
+      "image": "/gifts/imgs/1757458954059.jpg",
+      "price": 72,
+      "sellingPrice": 81.34,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c06f3f16b8255d984a8fba",
+      "name": "Toalha fralda ursinho",
+      "image": "/gifts/imgs/1757458965258.jpg",
+      "price": 42,
+      "sellingPrice": 47.45,
+      "category": "Hora do banho",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "68c0774f47caa6b5b4aa7a82",
+      "name": "Mamadeira anti-cólicas",
+      "image": "/gifts/imgs/1757458527054.jpg",
+      "price": 72,
+      "sellingPrice": 81.34,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c085c547caa6b5b4acacf5",
+      "name": "Kit 3 paninhos de boca - ursinho",
+      "image": "/gifts/imgs/1757458323255.jpg",
+      "price": 42,
+      "sellingPrice": 47.45,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c0b3f156d3b40ebe93f061",
+      "name": "Almofada para carrinho e bebê conforto",
+      "image": "/gifts/imgs/1757459438590.jpg",
+      "price": 102,
+      "sellingPrice": 115.23,
+      "category": "Diversos",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c0b430b090cff7750a5856",
+      "name": "Caixinha de ruído branco, luzes e sons para bebê",
+      "image": "/gifts/imgs/1757459502408.jpg",
+      "price": 210,
+      "sellingPrice": 237.23,
+      "category": "Diversos",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c0b55856d3b40ebe945a4b",
+      "name": "Lixeira antiodor e antibacteriana",
+      "image": "/gifts/imgs/1757459798416.jpg",
+      "price": 199,
+      "sellingPrice": 224.81,
+      "category": "Diversos",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c0b665b090cff7750ac78c",
+      "name": "Tapete de atividades impermeável e dobrável",
+      "image": "/gifts/imgs/1757460067540.jpg",
+      "price": 135,
+      "sellingPrice": 152.51,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68d2f7f5dbc8742c98ff4f64",
+      "name": "Almofada de amamentação",
+      "image": "/gifts/imgs/1758656497719.jpg",
+      "price": 72,
+      "sellingPrice": 81.34,
+      "category": "Diversos",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68e3f8565f45469379f57362",
+      "name": "Pote térmico - Porco espinho",
+      "image": "/gifts/imgs/1759770693481.jpg",
+      "price": 120,
+      "sellingPrice": 135.56,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68e3f8dd5f45469379f5a873",
+      "name": "Garrafa térmica - Porco espinho",
+      "image": "/gifts/imgs/1759770828864.jpg",
+      "price": 90,
+      "sellingPrice": 101.67,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68e3f9775f45469379f5e2bb",
+      "name": "Garrafinha - Porco espinho",
+      "image": "/gifts/imgs/1759770982399.jpg",
+      "price": 44,
+      "sellingPrice": 49.71,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68e3fba31484ab0aade561b4",
+      "name": "Lancheira marmita - Porco espinho",
+      "image": "/gifts/imgs/1759771538543.jpg",
+      "price": 89,
+      "sellingPrice": 100.54,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68e3fcc95f45469379f64a0d",
+      "name": "Lancheira - Porco espinho",
+      "image": "/gifts/imgs/1759771832776.jpg",
+      "price": 129,
+      "sellingPrice": 145.73,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68e3ffb31484ab0aade5f151",
+      "name": "Mochila baby - Porco espinho",
+      "image": "/gifts/imgs/1759772578365.jpg",
+      "price": 159,
+      "sellingPrice": 179.62,
+      "category": "Para os passeios",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68e4010b5f45469379f6bc45",
+      "name": "Colheres de silicone",
+      "image": "/gifts/imgs/1759772923114.jpg",
+      "price": 38,
+      "sellingPrice": 42.93,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68ffba5415410c6d7614292c",
+      "name": "Maleta Kit Educativo",
+      "image": "/gifts/imgs/1761589840294.jpg",
+      "price": 75,
+      "sellingPrice": 84.73,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6980ea62b3c294ba7b5b66dd",
+      "name": "Pacote Pampers Confort Sec G 60 unidades",
+      "image": "/gifts/imgs/1770056284072.jpg",
+      "price": 112,
+      "sellingPrice": 126.53,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "6980eaeeb3c294ba7b5b8665",
+      "name": "Pacote Pampers Confort Sec P 50 unidades",
+      "image": "/gifts/imgs/1770056424018.jpg",
+      "price": 86,
+      "sellingPrice": 97.15,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "6980eb623acbf355d69f9516",
+      "name": "Pacote Pampers Confort Sec M 70 unidades",
+      "image": "/gifts/imgs/1770056540133.jpg",
+      "price": 115,
+      "sellingPrice": 129.91,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "6980ec253acbf355d69fb02d",
+      "name": "Pacote Huggies Natural Care M 78 unidades",
+      "image": "/gifts/imgs/1770056734761.jpg",
+      "price": 116,
+      "sellingPrice": 131.04,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "6980ec713acbf355d69fc406",
+      "name": "Pacote Huggies Natural Care G 66 unidades",
+      "image": "/gifts/imgs/1770056811635.jpg",
+      "price": 118,
+      "sellingPrice": 133.3,
+      "category": "Fraldas",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "6995fdf1c5d123793ac66a9e",
+      "name": "Bolsa passeio + trocador + necessaire - cinza",
+      "image": "/gifts/imgs/1771437551272.jpg",
+      "price": 480,
+      "sellingPrice": 542.25,
+      "category": "Para os passeios",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6995fed2c5d123793ac68530",
+      "name": "Bolsa maternidade",
+      "image": "/gifts/imgs/1771437776500.jpg",
+      "price": 420,
+      "sellingPrice": 474.47,
+      "category": "Para os passeios",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c0b62e56d3b40ebe9480b2",
+      "name": "Organizador de itens p/ banco carro",
+      "image": "/gifts/imgs/1757460012298.jpg",
+      "price": 62,
+      "sellingPrice": 70.04,
+      "category": "Diversos",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e46dbbaf9c7a000ddfc925",
+      "name": "Brinquedos para banho",
+      "image": "/gifts/imgs/1625583033767.jpg",
+      "price": 25,
+      "sellingPrice": 28.24,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60ef3243caa6ea00090a8cc8",
+      "name": "Trocador portátil raposa",
+      "image": "/gifts/imgs/1626288707253.jpg",
+      "price": 31,
+      "sellingPrice": 35.02,
+      "category": "Para os passeios",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "613b7ba6a39fc7000653e6e2",
+      "name": "Mordedor mãozinha",
+      "image": "/gifts/imgs/1631288229333.jpg",
+      "price": 21,
+      "sellingPrice": 23.72,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60ef36f521649f0009c6f8b8",
+      "name": "Paninhos de boca",
+      "image": "/gifts/imgs/1626289909518.jpg",
+      "price": 28,
+      "sellingPrice": 31.63,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60ef3ab121649f0009c6fe32",
+      "name": "Kit babadores",
+      "image": "/gifts/imgs/1626290865438.jpg",
+      "price": 30,
+      "sellingPrice": 33.89,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c07a2a624dfd8af62ae298",
+      "name": "Colher dosadora",
+      "image": "/gifts/imgs/1757458687982.jpg",
+      "price": 40,
+      "sellingPrice": 45.19,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c0761147caa6b5b4aa4637",
+      "name": "Copo de treinamento",
+      "image": "/gifts/imgs/1757458423550.jpg",
+      "price": 42,
+      "sellingPrice": 47.45,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c084cd624dfd8af62c20b3",
+      "name": "Kit 3 paninhos de boca",
+      "image": "/gifts/imgs/1757458224990.jpg",
+      "price": 42,
+      "sellingPrice": 47.45,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c0768b624dfd8af62a9bf4",
+      "name": "Copo de transição",
+      "image": "/gifts/imgs/1757458476958.jpg",
+      "price": 50,
+      "sellingPrice": 56.48,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60ef310021649f0009c6eecd",
+      "name": "Jogo de frascos para coleta de leite",
+      "image": "/gifts/imgs/1626288383861.jpg",
+      "price": 76,
+      "sellingPrice": 85.86,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c07d0b624dfd8af62b16ed",
+      "name": "Kit introdução alimentar",
+      "image": "/gifts/imgs/1757458821156.jpg",
+      "price": 82,
+      "sellingPrice": 92.63,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c078b4624dfd8af62ab338",
+      "name": "Garrafa térmica",
+      "image": "/gifts/imgs/1757458606326.jpg",
+      "price": 85,
+      "sellingPrice": 96.02,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60ecaf743600810011863f58",
+      "name": "Kit com 3 mamadeiras",
+      "image": "/gifts/imgs/1626124146938.jpg",
+      "price": 142,
+      "sellingPrice": 160.42,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e5b2193c6c50000dff6917",
+      "name": "Cadeira de refeição para mesa",
+      "image": "/gifts/imgs/1625666071649.jpg",
+      "price": 190,
+      "sellingPrice": 214.64,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e46b542f78ee0010004491",
+      "name": "Cadeira de alimentação",
+      "image": "/gifts/imgs/1625582418823.jpg",
+      "price": 330,
+      "sellingPrice": 372.8,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e1b3830cf923000d7d4af4",
+      "name": "Aquecedor de mamadeira digital",
+      "image": "/gifts/imgs/1625404290933.jpg",
+      "price": 350,
+      "sellingPrice": 395.39,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e4759ecf685200124ea3f2",
+      "name": "Extrator de leite elétrico",
+      "image": "/gifts/imgs/1626288305335.jpg",
+      "price": 369,
+      "sellingPrice": 416.85,
+      "category": "Hora da papinha",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e64a0511a8cb000dc0ae93",
+      "name": "Brinquedos para o banho",
+      "image": "/gifts/imgs/1625704963826.jpg",
+      "price": 25,
+      "sellingPrice": 28.24,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "614cef70771680000810764a",
+      "name": "Termômetro para banheira",
+      "image": "/gifts/imgs/1632431981334.jpg",
+      "price": 25,
+      "sellingPrice": 28.24,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e1b0e20cf923000d7d4af0",
+      "name": "Jogo de bichinhos para banho",
+      "image": "/gifts/imgs/1625403618049.jpg",
+      "price": 35,
+      "sellingPrice": 39.54,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e470100cfbd1000dc3958e",
+      "name": "Kit escova e pente",
+      "image": "/gifts/imgs/1625583624145.jpg",
+      "price": 53,
+      "sellingPrice": 59.87,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60ef33a821649f0009c6f2e5",
+      "name": "Toalha fralda com capuz raposa",
+      "image": "/gifts/imgs/1626289064810.jpg",
+      "price": 54,
+      "sellingPrice": 61.0,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c06ff947caa6b5b4a9ba9c",
+      "name": "Pescaria de banho",
+      "image": "/gifts/imgs/1757458994070.jpg",
+      "price": 54,
+      "sellingPrice": 61.0,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c06968b04ec429fa0638c1",
+      "name": "Tapete antiderrapante de banho",
+      "image": "/gifts/imgs/1757440357583.jpg",
+      "price": 61,
+      "sellingPrice": 68.91,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60eefa0907841200096690c9",
+      "name": "Óleo essencial Zengest - alívio de cólicas",
+      "image": "/gifts/imgs/1626274354192.jpg",
+      "price": 65,
+      "sellingPrice": 73.43,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60eef94f0784120009668f47",
+      "name": "Óleo essencial Lavanda - relaxante",
+      "image": "/gifts/imgs/1626274125959.jpg",
+      "price": 65,
+      "sellingPrice": 73.43,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6143a30a561a480008b886dc",
+      "name": "Kit banho com colônia",
+      "image": "/gifts/imgs/1714302471212.jpg",
+      "price": 120,
+      "sellingPrice": 135.56,
+      "category": "Hora do banho",
+      "limit": 2,
+      "bought": 0
+    },
+    {
+      "id": "60e1b0a70cf923000d7d4aef",
+      "name": "Banheira inflável baleia",
+      "image": "/gifts/imgs/1625403558845.jpg",
+      "price": 134,
+      "sellingPrice": 151.38,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60eef6a807841200096688a4",
+      "name": "Kit óleos essenciais para o bem-estar do bebê",
+      "image": "/gifts/imgs/1626273447578.jpg",
+      "price": 430,
+      "sellingPrice": 485.77,
+      "category": "Hora do banho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "61e5cdcb0022f3001123e786",
+      "name": "Kit 2 lenços umedecidos",
+      "image": "/gifts/imgs/1642450378133.jpg",
+      "price": 38,
+      "sellingPrice": 42.93,
+      "category": "Higiene",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "60e46d89af9c7a000ddfc924",
+      "name": "Escova para lavar mamadeiras",
+      "image": "/gifts/imgs/1636056037631.jpg",
+      "price": 42,
+      "sellingPrice": 47.45,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c0b6bab090cff7750ae44d",
+      "name": "Penico baby",
+      "image": "/gifts/imgs/1757460152249.jpg",
+      "price": 52,
+      "sellingPrice": 58.74,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e12345179399000d1aa39c",
+      "name": "Kit manicure",
+      "image": "/gifts/imgs/1625367365178.jpg",
+      "price": 55,
+      "sellingPrice": 62.13,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e37953de73e6000da6afc9",
+      "name": "Aspirador nasal",
+      "image": "/gifts/imgs/1625520466545.jpg",
+      "price": 64,
+      "sellingPrice": 72.3,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c08586624dfd8af62c33bf",
+      "name": "Kit 6 fraldinhas",
+      "image": "/gifts/imgs/1757458301766.jpg",
+      "price": 72,
+      "sellingPrice": 81.34,
+      "category": "Higiene",
+      "limit": 2,
+      "bought": 0
+    },
+    {
+      "id": "673519bfedf1a585ad8bc95d",
+      "name": "Kit com 6 paninhos de boca",
+      "image": "/gifts/imgs/1731533245014.jpg",
+      "price": 88,
+      "sellingPrice": 99.41,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "6143ae36c260710008dfd050",
+      "name": "Kit 10 lenços umedecidos",
+      "image": "/gifts/imgs/1631825460832.jpg",
+      "price": 105,
+      "sellingPrice": 118.62,
+      "category": "Higiene",
+      "limit": -1,
+      "bought": 0
+    },
+    {
+      "id": "60e4662a2f78ee0010004484",
+      "name": "Esterilizador de mamadeira para microondas",
+      "image": "/gifts/imgs/1625581096840.jpg",
+      "price": 115,
+      "sellingPrice": 129.91,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e37901de73e6000da6afc8",
+      "name": "Nebulizador / Inalador ultrassônico",
+      "image": "/gifts/imgs/1625520384365.jpg",
+      "price": 142,
+      "sellingPrice": 160.42,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "61df381b21b91c000ddcf26b",
+      "name": "Kit com 5 pomadas para assaduras Bepantol 60g",
+      "image": "/gifts/imgs/1642018841722.jpg",
+      "price": 142,
+      "sellingPrice": 160.42,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e377e3de73e6000da6afc6",
+      "name": "Nebulizador / Inalador portátil",
+      "image": "/gifts/imgs/1625520098137.jpg",
+      "price": 208,
+      "sellingPrice": 234.98,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e5b6988e035e000d4e08d7",
+      "name": "Aquecedor de lenço umedecido",
+      "image": "/gifts/imgs/1625667221699.jpg",
+      "price": 224,
+      "sellingPrice": 253.05,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e4666d2f78ee0010004485",
+      "name": "Esterilizador de mamadeira a vapor",
+      "image": "/gifts/imgs/1625581163828.jpg",
+      "price": 320,
+      "sellingPrice": 361.5,
+      "category": "Higiene",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60ef32d221649f0009c6f20e",
+      "name": "Kit de cueiros raposa",
+      "image": "/gifts/imgs/1626288850883.jpg",
+      "price": 46,
+      "sellingPrice": 51.97,
+      "category": "Para os passeios",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68e3fe555f45469379f66e96",
+      "name": "Kit Fórmula",
+      "image": "/gifts/imgs/1759772227942.jpg",
+      "price": 56,
+      "sellingPrice": 63.26,
+      "category": "Para os passeios",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e46a712f78ee001000448f",
+      "name": "Canguru slim",
+      "image": "/gifts/imgs/1625582192401.jpg",
+      "price": 175,
+      "sellingPrice": 197.7,
+      "category": "Para os passeios",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "61e5cbee0bdefa000d70c073",
+      "name": "Filtro solar e repelente para peles sensíveis",
+      "image": "/gifts/imgs/1642449901080.jpg",
+      "price": 230,
+      "sellingPrice": 259.83,
+      "category": "Para os passeios",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e467cb2f78ee001000448b",
+      "name": "Bebê conforto",
+      "image": "/gifts/imgs/1625581513898.jpg",
+      "price": 389,
+      "sellingPrice": 439.45,
+      "category": "Para os passeios",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60ecac323600810011863f52",
+      "name": "Carrinho de bebê guarda-chuva",
+      "image": "/gifts/imgs/1626123313547.jpg",
+      "price": 839,
+      "sellingPrice": 947.81,
+      "category": "Para os passeios",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "613b7f582a5a920008a65107",
+      "name": "Luvinha mordedor",
+      "image": "/gifts/imgs/1631289175496.jpg",
+      "price": 26,
+      "sellingPrice": 29.37,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "614cedf77716800008106f50",
+      "name": "Girafinha de pelúcia com prendedor de chupeta",
+      "image": "/gifts/imgs/1632431604468.jpg",
+      "price": 39,
+      "sellingPrice": 44.06,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e46e43af9c7a000ddfc926",
+      "name": "Girafa mordedor",
+      "image": "/gifts/imgs/1625583169781.jpg",
+      "price": 44,
+      "sellingPrice": 49.71,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e1b1d10cf923000d7d4af2",
+      "name": "Tapete de água inflável macio e divertido",
+      "image": "/gifts/imgs/1625403857175.jpg",
+      "price": 63,
+      "sellingPrice": 71.17,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e11bc2179399000d1aa399",
+      "name": "Xilofone de peixinho",
+      "image": "/gifts/imgs/1625365438763.jpg",
+      "price": 79,
+      "sellingPrice": 89.25,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c0b4ccb090cff7750a6e7b",
+      "name": "Brinquedo bichinhos",
+      "image": "/gifts/imgs/1757459657434.jpg",
+      "price": 78,
+      "sellingPrice": 88.12,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "614ced577716800008106f38",
+      "name": "Coala musical de atividades",
+      "image": "/gifts/imgs/1632431443828.jpg",
+      "price": 84,
+      "sellingPrice": 94.89,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "614e20a7ec26b4000889c465",
+      "name": "Arco-íris em madeira para montar",
+      "image": "/gifts/imgs/1632510117644.jpg",
+      "price": 87,
+      "sellingPrice": 98.28,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e47642cf685200124ea3f4",
+      "name": "Bicho preguiça",
+      "image": "/gifts/imgs/1625585216573.jpg",
+      "price": 128,
+      "sellingPrice": 144.6,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60ef58e3aec79c00089d3513",
+      "name": "Mordedor raposa",
+      "image": "/gifts/imgs/1626298595093.jpg",
+      "price": 128,
+      "sellingPrice": 144.6,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e37a4777c23a000fcaddb2",
+      "name": "Tapete de atividades",
+      "image": "/gifts/imgs/1625520710786.jpg",
+      "price": 255,
+      "sellingPrice": 288.07,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e11e07179399000d1aa39a",
+      "name": "Cadeira de descanso com luzes e sons",
+      "image": "/gifts/imgs/1625366021818.jpg",
+      "price": 577,
+      "sellingPrice": 651.83,
+      "category": "Para brincar",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e1b4b00cf923000d7d4af6",
+      "name": "Berço portátil",
+      "image": "/gifts/imgs/1625404591283.jpg",
+      "price": 572,
+      "sellingPrice": 646.18,
+      "category": "Hora do soninho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e467682f78ee0010004486",
+      "name": "Berço para acoplar à cama",
+      "image": "/gifts/imgs/1625581414688.jpg",
+      "price": 615,
+      "sellingPrice": 694.76,
+      "category": "Hora do soninho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e1b52f0cf923000d7d4af7",
+      "name": "Babá eletrônica",
+      "image": "/gifts/imgs/1625404718995.jpg",
+      "price": 629,
+      "sellingPrice": 710.57,
+      "category": "Hora do soninho",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "61e5de280022f30011241be7",
+      "name": "Kit dosador de medicamentos",
+      "image": "/gifts/imgs/1642454567220.jpg",
+      "price": 46,
+      "sellingPrice": 51.97,
+      "category": "Diversos",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "68c0b4a5b090cff7750ac78c",
+      "name": "Bolsa para hastes do carrinho",
+      "image": "/gifts/imgs/1757459618650.jpg",
+      "price": 65,
+      "sellingPrice": 73.43,
+      "category": "Diversos",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e3766bde73e6000da6afc5",
+      "name": "Termômetro digital com infravermelho",
+      "image": "/gifts/imgs/1761590240737.jpg",
+      "price": 85,
+      "sellingPrice": 96.02,
+      "category": "Diversos",
+      "limit": 1,
+      "bought": 0
+    },
+    {
+      "id": "60e374c28dcf3b000e89aebb",
+      "name": "Termômetro digital - testa e ouvido",
+      "image": "/gifts/imgs/1761590553978.jpg",
+      "price": 139,
+      "sellingPrice": 157.03,
+      "category": "Diversos",
+      "limit": 1,
+      "bought": 0
+    }
+  ],
+  "contributions": [],
+  "messages": []
+}

@@ -1,26 +1,107 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Grounds */
+    --color-bg: #FAF7F2;
+    --color-surface: #ffffff;
+    --color-surface-warm: #f6f1ea;
+    --color-border: #e8e0d5;
+
+    /* Text */
+    --color-text-primary: #2a2826;
+    --color-text-secondary: #6b6560;
+    --color-text-muted: #a8a29c;
+
+    /* Sage */
+    --color-sage: #687A65;
+    --color-sage-light: #d4dfd3;
+    --color-sage-dark: #465544;
+
+    /* Terracotta */
+    --color-terracotta: #B07B65;
+    --color-terracotta-light: #f6ebe6;
+    --color-terracotta-mid: #d5a18e;
+    --color-terracotta-dark: #8a5843;
+
+    /* Utility */
+    --color-progress-bg: #ede8de;
+
+    --shadow-card: 0 12px 35px -8px rgba(104, 122, 101, 0.1);
+    --shadow-elevated: 0 4px 20px rgba(104, 122, 101, 0.15), 0 8px 40px rgba(104, 122, 101, 0.08);
+    --radius-card: 16px;
+    --radius-pill: 100px;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.botanical-bg {
+  background-color: #FAF7F2;
+  background-image:
+    radial-gradient(#687A65 0.6px, transparent 0.6px),
+    radial-gradient(#B07B65 0.6px, #FAF7F2 0.6px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-progress-bg); }
+::-webkit-scrollbar-thumb { background: var(--color-sage-light); border-radius: 3px; }
+
+/* Progress bar animation */
+@keyframes progress-fill {
+  from { width: 0%; }
+  to { width: var(--progress-width); }
+}
+
+.progress-bar-fill {
+  animation: progress-fill 1s ease-out forwards;
+}
+
+/* Pulse for funded items */
+@keyframes gentle-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.funded-badge {
+  animation: gentle-pulse 2s ease-in-out infinite;
+}
+
+/* Card hover */
+.gift-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.gift-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-elevated);
+}
+
+/* Focus visible */
+*:focus-visible {
+  outline: 2px solid var(--color-terracotta);
+  outline-offset: 2px;
+}
+
+/* Toast animation */
+@keyframes slide-up {
+  from { transform: translateY(80px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.toast-visible {
+  animation: slide-up 0.3s ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .progress-bar-fill { animation: none; }
+  .funded-badge { animation: none; }
+  .gift-card:hover { transform: none; }
 }
