@@ -6,16 +6,23 @@ import { useEffect, useState, Suspense } from "react";
 function SuccessContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const [mounted, setMounted] = useState(false);
-
-  const isPending = searchParams.get("status") === "pending";
-  const isDemo = searchParams.get("demo") === "true";
+  const contributionId = searchParams.get("contribution");
+  const [status, setStatus] = useState("pending");
+  const isPending = status !== "approved";
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) return null;
+    if (!contributionId) return;
+    let active = true;
+    const check = async () => {
+      try {
+        const response = await fetch(`/api/contributions/status?id=${encodeURIComponent(contributionId)}`, { cache: "no-store" });
+        if (response.ok && active) setStatus((await response.json()).status);
+      } catch { /* Keep the safe pending state while offline. */ }
+    };
+    void check();
+    const interval = setInterval(check, 5000);
+    return () => { active = false; clearInterval(interval); };
+  }, [contributionId]);
 
   return (
     <main
@@ -54,29 +61,21 @@ function SuccessContent() {
             textWrap: "balance",
           }}
         >
-          {isPending
-            ? "Pagamento em processamento"
-            : isDemo
-            ? "Contribuição enviada!"
-            : "Obrigada pelo seu presente!"}
+          {status === "rejected" ? "Pagamento não concluído" : isPending ? "Aguardando confirmação" : "Obrigada pelo seu presente!"}
         </h1>
 
         <p
           className="text-base leading-relaxed mb-2"
           style={{ color: "var(--color-text-secondary)" }}
         >
-          {isPending
-            ? "Seu pagamento está sendo processado. Assim que confirmado, seu nome aparecerá no mural de recados."
-            : isDemo
-            ? "No ambiente de produção, seu pagamento seria processado com segurança pelo Mercado Pago. Sua mensagem aparecerá no mural após a confirmação."
+          {status === "rejected" ? "O pagamento foi recusado ou cancelado. Você pode escolher o presente novamente." : isPending
+            ? "Estamos aguardando a confirmação do Mercado Pago. Sua mensagem aparecerá no mural após a aprovação."
             : "Sua contribuição foi confirmada e faz parte de algo muito especial. Os papais e o bebê agradecem de coração."}
         </p>
 
-        {(isPending || isDemo) && (
+        {status === "pending" && (
           <p className="text-xs mb-8" style={{ color: "var(--color-text-muted)" }}>
-            {isDemo
-              ? "Configure NEXT_PUBLIC_MP_PUBLIC_KEY e MP_ACCESS_TOKEN para pagamentos reais."
-              : "Você receberá uma confirmação assim que o pagamento for aprovado."}
+            Esta página atualiza automaticamente quando o pagamento é confirmado.
           </p>
         )}
 
@@ -98,7 +97,7 @@ function SuccessContent() {
             className="text-sm italic leading-relaxed"
             style={{ color: "var(--color-text-secondary)", fontFamily: "var(--font-playfair)" }}
           >
-            "Cada presente não é apenas um objeto — é um ato de amor que acompanhará o bebê em cada descoberta."
+            &ldquo;Cada presente não é apenas um objeto — é um ato de amor que acompanhará o bebê em cada descoberta.&rdquo;
           </p>
           <p
             className="text-xs mt-3 font-medium"
@@ -120,7 +119,7 @@ function SuccessContent() {
             Ver mais presentes
           </button>
           <button
-            onClick={() => router.push("/#mural")}
+            onClick={() => router.push("/#recados")}
             className="px-6 py-3 rounded-xl text-sm font-medium transition-all"
             style={{
               background: "var(--color-surface)",

@@ -4,18 +4,20 @@ import { v4 as uuidv4 } from "uuid";
 import { getItem, addContribution } from "@/lib/db";
 import { CreatePaymentBody } from "@/lib/types";
 
-const client = new MercadoPago({
-  accessToken: process.env.MP_ACCESS_TOKEN ?? "TEST-ACCESS-TOKEN",
-});
-
-const preference = new Preference(client);
-
 export async function POST(req: NextRequest) {
   try {
+    const accessToken = process.env.MP_ACCESS_TOKEN;
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL?.replace(/\/$/, "");
+    if (!accessToken || !baseUrl || !/^https:\/\//.test(baseUrl)) {
+      return NextResponse.json({ error: "Pagamento não configurado" }, { status: 503 });
+    }
+    const preference = new Preference(new MercadoPago({ accessToken }));
     const body: CreatePaymentBody = await req.json();
     const { itemId, guestName, message } = body;
 
-    if (!itemId || !guestName) {
+    if (typeof itemId !== "string" || typeof guestName !== "string" ||
+        !guestName.trim() || guestName.length > 100 ||
+        (message != null && (typeof message !== "string" || message.length > 1000))) {
       return NextResponse.json(
         { error: "Campos obrigatórios faltando" },
         { status: 400 }
@@ -35,8 +37,10 @@ export async function POST(req: NextRequest) {
     }
 
     const amount = item.price;
+    if (!Number.isFinite(amount) || amount <= 0) {
+      return NextResponse.json({ error: "Valor inválido" }, { status: 400 });
+    }
     const contributionId = uuidv4();
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "http://localhost:3000";
 
     const prefResult = await preference.create({
       body: {
@@ -51,7 +55,7 @@ export async function POST(req: NextRequest) {
           },
         ],
         payer: {
-          name: guestName,
+          name: guestName.trim(),
         },
         payment_methods: {
           excluded_payment_types: [],
@@ -68,16 +72,17 @@ export async function POST(req: NextRequest) {
         metadata: {
           contributionId,
           itemId,
-          guestName,
+          guestName: guestName.trim(),
           message,
         },
       },
     });
 
+    if (!prefResult.id || !prefResult.init_point) throw new Error("Preferência incompleta");
     await addContribution({
       id: contributionId,
       itemId,
-      guestName,
+      guestName: guestName.trim(),
       message: message ?? "",
       amount,
       paymentId: prefResult.id ?? contributionId,

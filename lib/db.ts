@@ -70,24 +70,31 @@ export async function addContribution(contribution: Contribution): Promise<void>
 
 export async function updateContributionStatus(
   contributionId: string,
-  status: Contribution["status"]
+  status: Contribution["status"],
+  paymentId: string,
+  amount: number
 ): Promise<void> {
   const { data: contribution, error: fetchError } = await supabaseServer
-    .from("contributions")
-    .select("item_id")
-    .eq("id", contributionId)
-    .single();
+    .from("contributions").select("item_id, amount, status")
+    .eq("id", contributionId).single();
+  if (fetchError || !contribution) throw new Error("Contribuição não encontrada");
+  if (Number(contribution.amount) !== amount) throw new Error("Valor divergente");
 
-  if (fetchError || !contribution) return;
-
-  const { error: updateError } = await supabaseServer
-    .from("contributions")
-    .update({ status })
-    .eq("id", contributionId);
-
-  if (updateError) throw new Error(updateError.message);
-
-  if (status === "approved") {
-    await supabaseServer.rpc("increment_bought", { item_id: contribution.item_id });
+  // Never downgrade an approved gift after a delayed notification.
+  if (contribution.status !== "approved") {
+    const { error } = await supabaseServer.from("contributions")
+      .update({ status, payment_id: paymentId }).eq("id", contributionId)
+      .neq("status", "approved");
+    if (error) throw new Error(error.message);
+  }
+  if (status === "approved" || contribution.status === "approved") {
+    // Counting approved gifts makes duplicate notifications and retries safe.
+    const { count, error: countError } = await supabaseServer.from("contributions")
+      .select("id", { count: "exact", head: true })
+      .eq("item_id", contribution.item_id).eq("status", "approved");
+    if (countError || count == null) throw new Error(countError?.message ?? "Contagem indisponível");
+    const { error: itemError } = await supabaseServer.from("items")
+      .update({ bought: count }).eq("id", contribution.item_id).lt("bought", count);
+    if (itemError) throw new Error(itemError.message);
   }
 }

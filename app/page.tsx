@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { Suspense } from "react";
 import GiftCard from "@/components/GiftCard";
 import ContributeModal from "@/components/ContributeModal";
@@ -14,7 +14,6 @@ interface ItemWithContributions extends GiftItem {
 }
 
 function BabyShowerPage() {
-  const router = useRouter();
   const searchParams = useSearchParams();
   const [items, setItems] = useState<ItemWithContributions[]>([]);
   const [selectedItem, setSelectedItem] = useState<GiftItem | null>(null);
@@ -74,17 +73,8 @@ function BabyShowerPage() {
     const result = await res.json();
     if (!res.ok) throw new Error(result.error ?? "Erro ao processar");
 
-    sessionStorage.setItem("checkoutData", JSON.stringify({
-      preferenceId: result.preferenceId,
-      amount: result.amount,
-      itemName: selectedItem.name,
-      itemImage: selectedItem.image,
-      guestName: data.guestName,
-      message: data.message,
-      contributionId: result.contributionId,
-    }));
-
-    router.push("/checkout");
+    if (!result.initPoint) throw new Error("Link de pagamento indisponível");
+    window.location.assign(result.initPoint);
   }
 
   const showToast = useCallback((msg: string) => {
