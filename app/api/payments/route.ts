@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
   try {
     const accessToken = process.env.MP_ACCESS_TOKEN;
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL?.replace(/\/$/, "");
-    const isValidUrl = /^https:\/\//.test(baseUrl) || /^http:\/\/localhost/.test(baseUrl);
+    const isValidUrl = !!baseUrl && (/^https:\/\//.test(baseUrl) || /^http:\/\/localhost/.test(baseUrl));
     if (!accessToken || !baseUrl || !isValidUrl) {
       return NextResponse.json({ error: "Pagamento não configurado" }, { status: 503 });
     }
