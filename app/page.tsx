@@ -164,13 +164,13 @@ function BabyShowerPage() {
             className="leading-none"
             style={{ fontFamily: "var(--font-script)", fontSize: "2.8rem", color: "var(--color-sage-dark)" }}
           >
-            Chá do Bebê
+            Chá de Bebê
           </h1>
           <p
             className="font-semibold tracking-widest uppercase mt-1 mb-6"
             style={{ fontFamily: "var(--font-serif)", fontSize: "1.3rem", color: "var(--color-terracotta)" }}
           >
-            DA CAMILA E DO ANDRÉ
+            DA MADALENA
           </p>
 
 
@@ -354,7 +354,7 @@ function BabyShowerPage() {
         className="text-center py-5 text-xs relative z-10"
         style={{ background: "var(--color-sage-dark)", color: "rgba(255,255,255,0.75)" }}
       >
-        <p style={{ fontFamily: "var(--font-serif)", fontSize: "1rem" }}>Chá de Bebê da Camila e do André</p>
+        <p style={{ fontFamily: "var(--font-serif)", fontSize: "1rem" }}>Chá de Bebê da Madalena</p>
         <p className="mt-1 text-[10px]" style={{ color: "rgba(255,255,255,0.45)" }}>
           Feito com carinho pela{" "}
           <a

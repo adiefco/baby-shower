@@ -25,7 +25,7 @@ const sacramento = Sacramento({
 });
 
 export const metadata: Metadata = {
-  title: "Chá de Bebê da Camila e do André",
+  title: "Chá de Bebê da Madalena",
   description:
     "Escolha um presente especial para o bebê. Cada mimosinho é um gesto de amor.",
   icons: {
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Chá de Bebê da Camila e do André 🌿",
+    title: "Chá de Bebê da Madalena 🌿",
     description: "Contribua com o que puder — cada gesto conta!",
   },
 };
