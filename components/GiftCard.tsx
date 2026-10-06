@@ -71,6 +71,17 @@ export default function GiftCard({ item, onContribute }: GiftCardProps) {
           </p>
         )}
 
+        {item.limit === -1 && item.bought > 0 && (
+          <p className="text-[10px]" style={{ color: "var(--color-text-muted)" }}>
+            {item.bought} {item.bought === 1 ? "pessoa já presenteou" : "pessoas já presentearam"}
+          </p>
+        )}
+        {item.limit !== -1 && !isSoldOut && (
+          <p className="text-[10px]" style={{ color: "var(--color-text-muted)" }}>
+            {item.limit - item.bought} {item.limit - item.bought === 1 ? "restante" : "restantes"}
+          </p>
+        )}
+
         <div className="mt-auto pt-2 border-t flex items-center justify-between" style={{ borderColor: "var(--color-border)" }}>
           <span
             className="font-bold text-sm"
