@@ -8,7 +8,8 @@ export async function POST(req: NextRequest) {
   try {
     const accessToken = process.env.MP_ACCESS_TOKEN;
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL?.replace(/\/$/, "");
-    if (!accessToken || !baseUrl || !/^https:\/\//.test(baseUrl)) {
+    const isValidUrl = /^https:\/\//.test(baseUrl) || /^http:\/\/localhost/.test(baseUrl);
+    if (!accessToken || !baseUrl || !isValidUrl) {
       return NextResponse.json({ error: "Pagamento não configurado" }, { status: 503 });
     }
     const preference = new Preference(new MercadoPago({ accessToken }));
