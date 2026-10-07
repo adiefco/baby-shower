@@ -90,7 +90,7 @@ function BabyShowerPage() {
   const totalDays = REFERENCE_DAYS + daysSinceRef;
   const gestWeeks = Math.floor(totalDays / 7);
 
-  const allMessages: import("@/lib/types").Contribution[] = [];
+  const allMessages = items.flatMap((i) => i.contributions ?? []);
   const categories = ["todos", ...Array.from(new Set(items.map((i) => i.category)))];
   const filtered = (filter === "todos" ? items : items.filter((i) => i.category === filter))
     .slice()
